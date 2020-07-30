@@ -54,7 +54,8 @@
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
-    min-width: 70%;
+    margin-left: 90px;
+    min-width: 10%;
     min-height: 2.5rem;
     box-shadow: 0 0 1px 0 lightgray;
 }
@@ -62,6 +63,7 @@
 input::placeholder{
     font-size: 16px;
     text-align: left;
+    
 }
 #search-here{
     border-radius: 1.2rem;
@@ -70,7 +72,7 @@ input::placeholder{
     min-height: 2.2rem;
 }
 #search-here:hover{
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
 #search-here:focus{
     outline: none;
