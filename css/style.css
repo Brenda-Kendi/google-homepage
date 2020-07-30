@@ -1,0 +1,137 @@
+
+.bt{
+    padding-top: 10px;
+    margin-top: -10px;
+
+}
+.bt input{
+    background-color: blue;
+    color: white;
+    
+}
+
+.right li{
+    display: flex;
+    float:right;
+    list-style: none;
+    padding-top: 10px;
+    text-decoration: none;
+    margin: 5px;
+}
+.right >ul >li >a{
+    color: grey;
+    margin: 2px;
+    text-decoration: none;
+}
+.right >ul>li> a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+.left li{
+    display: flex;
+    float: left;
+    list-style: none;
+    padding-top: 10px;
+    text-decoration: none;
+    margin: 5px;
+    
+}
+.left >ul >li >a{
+    color:grey;
+    margin: 2px;
+    text-decoration: none;
+}
+.left >ul>li> a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+.google{
+    text-align: center;
+    font-size: large;
+
+}
+.search-button{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-width: 70%;
+    min-height: 2.5rem;
+    box-shadow: 0 0 1px 0 lightgray;
+}
+
+input::placeholder{
+    font-size: 16px;
+    text-align: left;
+}
+#search-here{
+    border-radius: 1.2rem;
+    border: 1px solid lightgrey;
+    min-width: 25rem;
+    min-height: 2.2rem;
+}
+#search-here:hover{
+    background-color: lightgray;
+}
+#search-here:focus{
+    outline: none;
+}
+.buttons{
+    text-align: center;
+    position: relative;
+    min-width: 20rem;
+    min-height: 2rem;
+    margin: 5px;
+}
+.p{
+    text-align: center;
+    margin-top: 5px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  
+    
+}
+.footer-0 >ul >li{
+    list-style-type: none;
+    display: inline;
+    
+}
+.footer-1 > ul > li{
+    list-style-type: none;
+    display: inline;
+    
+}
+.footer-1 > ul >li >a {
+    color: black;
+    margin: 5px;
+    text-decoration: none;
+}
+.footer >ul>li> a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+.footer-2 > ul >li {
+display: inline;
+list-style-type: none;
+}
+
+.footer-2 >ul >li >a {
+    color: black;
+    margin:  5px;
+    text-decoration: none;
+}
+.footer-2 >ul>li> a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+.footer-2{
+    margin-left: auto;
+
+}

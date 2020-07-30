@@ -1,0 +1,1 @@
+In the 'Google-Homepage' project, I used html to design the google homepage then used css to style. They tags and styling techniques I have applied are some of those that I have come across during my study in the 'The Odin Project' materials.
