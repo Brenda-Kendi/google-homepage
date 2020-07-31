@@ -52,13 +52,22 @@
 }
 .search-button{
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 90px;
     min-width: 10%;
     min-height: 2.5rem;
-    box-shadow: 0 0 1px 0 lightgray;
-}
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    
+
+        flex-direction: row;
+        
+      }
+      
+      #google-mic {
+        height: 25px;
+        margin-left: -30px;
+      }
+     
 
 input::placeholder{
     font-size: 16px;
